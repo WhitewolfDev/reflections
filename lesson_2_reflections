@@ -1,0 +1,8 @@
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the repository because the files added to the staging area are not yet committed.  Files in the repository have been committed.  So, in this, they are different.
+
+The staging area and the working directory.  The working directory is there the files physically reside.  The staging area can hold one or more of the files that will be then passed to the repository.  The staging area also has dealings with the repository, the working directory does not.
+

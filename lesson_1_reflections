@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using FC (File Compare) was much like using Tortoise SVN in that it
+1.  saved a hugh amount of time looking at each line for a possible different
+2.  saved bouncing back and forth between the two files
+3.  made the differences stand out for fairly easy identification
+
+How could having easy access to the entire history of a file make you a more efficient programmer?
+
+1.  The best way is time.  Less time hunting down and tracking what has changed gives the program much 
+more time to do what they want to do which is write code.
+2.  Even with this big time saver, seeing the amount and kinds of errors made in code will make the 
+programmer more consciencious about writing good code from the start to avoid even the quick diffs 
+required to fix the code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in 
+Git, vs having versions automatically saved, like in Google docs?
+
+The pros are:
+1.  saving when it seems appropriate
+2.  versions are more complete
+3.  versions won't be created in middle of typing a line of code
+
+The cons are:
+1.  might forget to version and lose code
+2.  changes might be so big that can't easily read through them
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is more geared towards programming and development where more than one file ties together to form a change.
+The other version control systems, like Google docs, are geared more towards a word doc or text doc or image where a single file is the entire "project" or focus.  another file typically means a new project or focus that does not relate to the other file that was commited.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows the different versions with their ids, comments, date, and user.  From the is information
+the version id can be used in git diff to see the changes between versions
+Git diff will show the differences between two different versions by version id
+
+How might using version control make you more confident to make changes that could break something?
+
+Because if a bug is introduced, it can be identified through the diff and log process.  Though it is a big pain 
+in the buttocks.
+
