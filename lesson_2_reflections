@@ -6,3 +6,7 @@ The staging area is different from the repository because the files added to the
 
 The staging area and the working directory.  The working directory is there the files physically reside.  The staging area can hold one or more of the files that will be then passed to the repository.  The staging area also has dealings with the repository, the working directory does not.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Individual files are added to the staging area, so initially,  the files commited can be controlled with only a single file added if desired.
+Next, typing "git diff" allows for viewing of the code in the files that are added so that changes can be verified before adding them.
