@@ -10,3 +10,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 Individual files are added to the staging area, so initially,  the files commited can be controlled with only a single file added if desired.
 Next, typing "git diff" allows for viewing of the code in the files that are added so that changes can be verified before adding them.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branching would be helpful when trying something new or programming something that could easily mess up code beyond easy fixing. 
+
+Branching would help because any changes made would not affect the main branch of the code. If one is wanting to be able to show another developer how their code works, but still want to keep working.  Branching would separate the "experimental" code from the working code.
+
