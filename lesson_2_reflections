@@ -21,3 +21,8 @@ How do the diagrams help you visualize the branch structure?
 
 The diagram helps show a simple graphic representation of a confusing flat git log.  It also helps to see the detached checkouts in the log which are lost if not added to a branch.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result was that the changes made in the coin branch were added to the changes in the master branch to form a single branch called master.  
+I think we represent the diagram of the branches the way we did to show the commits attached to each branch and to identify orphaned commits that we might want to make a branch for.
+
